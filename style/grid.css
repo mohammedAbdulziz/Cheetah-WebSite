@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: "Lato", Arial, Helvetica, sans-serif, sans-serif;
 }
+.new {
+  overflow: hidden;
+}
 [class*="col"] {
   float: left;
   padding: 12px;
