@@ -312,3 +312,78 @@ body {
   width: 100%;
   height: 100%;
 }
+
+/* section */
+body{
+    width:100%;
+}
+.aboutUSS{
+    background-color:#272a2f;
+
+}
+.aboutUS{
+    padding-top:50px;
+    width:80%;
+    margin:auto;
+   
+}
+.aboutUS h1{
+    text-align: center;
+    font-size: 2.4em;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    color:white;
+
+}
+.aboutUS h1::first-letter{
+    text-align: center;
+   
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    color:#f49016;
+
+}
+.aboutUS .text p{
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.aboutUS .text button{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-size: larger;
+    margin-top: 20px;
+    background: #f49016;
+    color:white;
+    padding:10px 20px;
+    border:none;
+    border-radius: 5px;
+}
+.aboutUS .text button:hover{
+    background: #98171b;
+    
+}
+
+.images .roww{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    
+}
+.images .roww .img{
+width: 200px;
+height: 200px;
+margin-bottom: 30px;
+
+}
+.images .roww .img:hover{
+    border:2px solid rgba(255, 255, 255, 0.849);
+    
+    }
+.images .roww .img img{
+    width: 100%;
+    height: 100%;
+}
+
+
