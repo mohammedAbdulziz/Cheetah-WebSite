@@ -1,25 +1,6 @@
 /* main color orange #f49016 */
 /* main color brown #98171b */
 /* black color #272a2f */
-body{
-    width:100%;
-}
-.aboutUSS{
-    background-color:#272a2f;
-
-}
-.aboutUS{
-    padding-top:50px;
-    width:80%;
-    margin:auto;
-   
-}
-.aboutUS h1{
-    text-align: center;
-    font-size: 2.4em;
-    font-family: 'Times New Roman', Times, serif;
-    margin-bottom: 20px;
-    color:white;
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans:300,400,600,700,800");
 * {
   margin: 0;
@@ -62,26 +43,6 @@ html {
   min-height: 100%;
   z-index: 999;
 }
-.aboutUS .text p{
-    font-family: 'Times New Roman', Times, serif;
-    color:white;
-    text-align: left;
-    margin-bottom: 30px;
-}
-.aboutUS .text button{
-    font-family: 'Times New Roman', Times, serif;
-    text-transform: uppercase;
-    font-size: larger;
-    margin-top: 20px;
-    background: #f49016;
-    color:white;
-    padding:10px 20px;
-    border:none;
-    border-radius: 5px;
-}
-.aboutUS .text button:hover{
-    background: #98171b;
-    
 .section {
   margin: 5% 0;
 }
@@ -188,11 +149,6 @@ html {
   color: #fff;
   transition: all 0.9s ease 0s;
 }
-.images .roww .img:hover{
-    border:2px solid rgba(255, 255, 255, 0.849);
-    
-    }
-.images .roww .img img{
 .blue-btn.active,
 .blue-btn:hover {
   background: none;
