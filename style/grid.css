@@ -1,3 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", Arial, Helvetica, sans-serif, sans-serif;
+}
+[class*="col"] {
+  float: left;
+  padding: 12px;
+  margin-left: 1%;
+}
+.frist {
+  margin-left: 0;
+}
+body,
+html {
+  height: 100%;
+}
+
 /*////////////////////// Desktop Style/////////////////////////*/
 /*////////////////////// Layout Style/////////////////////////*/
 .row::after {
