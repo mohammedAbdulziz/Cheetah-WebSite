@@ -23,6 +23,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
+
   position: sticky;
   background-image: linear-gradient(black);
 }
@@ -104,6 +105,21 @@ p {
 /*////////////////////// MD Style/////////////////////////*/
 /*//////////////////////MD Layout Style/////////////////////////*/
 @media screen and (max-width: 768px) {
+  p {
+    color: black;
+    text-align: center;
+  }
+  .sec {
+    height: 100%;
+    background-color: #ffffff;
+  }
+  .service {
+    background-image: none;
+  }
+  .border {
+    box-shadow: 2px 4px 6px #858181;
+    /* border: solid 2px #ffffff5c; */
+  }
   .col-m-1 {
     width: 8.33%;
   }
