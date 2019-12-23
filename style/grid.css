@@ -6,6 +6,7 @@
 }
 .new {
   overflow: hidden;
+  margin-top: 50px;
 }
 [class*="col"] {
   float: left;
