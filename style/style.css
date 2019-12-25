@@ -22,7 +22,7 @@ html {
 }
 
 .row::after {
-  margin-bottom: 0.5%;
+  
   content: ".";
   clear: both;
   display: block;
@@ -255,8 +255,7 @@ html {
 body {
   width: 100%;
 }
-.aboutUSS {
-}
+
 .aboutUS {
   padding-top: 50px;
   width: 80%;
@@ -313,9 +312,6 @@ body {
 }
 
 /* section */
-body{
-    width:100%;
-}
 .aboutUSS{
     background-color:#272a2f;
 
