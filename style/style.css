@@ -261,7 +261,6 @@ body {
   padding-top: 50px;
   width: 80%;
   margin: auto;
-  background-color: #ccc;
 }
 .aboutUS h1 {
   text-align: center;
@@ -324,7 +323,8 @@ body{
 .aboutUS{
     padding-top:50px;
     width:80%;
-    margin:auto;
+    margin: auto;
+    
    
 }
 .aboutUS h1{
