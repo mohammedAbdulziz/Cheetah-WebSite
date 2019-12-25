@@ -406,7 +406,7 @@ color: #f49016;
 }
 
 .formLabel {
-    width: 20%;
+    
     /* float: left; */
 	font-size: 16px;
 	color: #ccc;
@@ -417,14 +417,14 @@ color: #f49016;
 	/* -webkit-transition: .333s ease top, .333s ease opacity;
 	transition: .333s ease top, .333s ease opacity; */
 }
-.formInput {
+.formInput,textarea {
 	color: #eee;
 	background: #272a2f;
 	border-radius: 0;
 	border-color: #ccc;
 	border-width: 0 0 2px 0;
 	border-style: none none solid none;
-	width: 70%;
+	
 	margin: 20px;
 	font-size: 16px;
 	-webkit-border-radius: 0;
@@ -432,7 +432,7 @@ color: #f49016;
 	-ms-border-radius: 0;
 	-o-border-radius: 0;
 }
-.formInput:focus {
+.formInput:focus,textarea {
     border-color: #f49016;
     outline: none;
     transition: all 0.2s ease-in-out ;
