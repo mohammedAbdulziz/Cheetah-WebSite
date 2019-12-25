@@ -1,0 +1,79 @@
+/* main color orange #f49016 */
+/* main color brown #98171b */
+/* black color #272a2f */
+*{
+    box-sizing: border-box;
+}.paddingAll{
+    margin: 0px 15%;
+    padding: 30px 10px ;
+    width: 70%;
+}
+.center{
+    text-align: center;
+  }
+#contactSection{
+background: #272a2f;
+color: #f49016;
+}
+
+.formLabel {
+    width: 20%;
+    /* float: left; */
+	font-size: 16px;
+	color: #ccc;
+	margin: 0;
+    display: inline-block;
+    margin: 20px 10px 20px 0px;
+	opacity: 1;
+	/* -webkit-transition: .333s ease top, .333s ease opacity;
+	transition: .333s ease top, .333s ease opacity; */
+}
+.formInput {
+	color: #eee;
+	background: #272a2f;
+	border-radius: 0;
+	border-color: #ccc;
+	border-width: 0 0 2px 0;
+	border-style: none none solid none;
+	width: 70%;
+	margin: 20px;
+	font-size: 16px;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	-ms-border-radius: 0;
+	-o-border-radius: 0;
+}
+.formInput:focus {
+    border-color: #f49016;
+    outline: none;
+    transition: all 0.2s ease-in-out ;
+    -webkit-transition: all 0.2s ease-in-out ;
+    -moz-transition: all 0.2s ease-in-out ;
+    -ms-transition: all 0.2s ease-in-out ;
+    -o-transition: all 0.2s ease-in-out ;
+}
+.btnSend{
+    background: #272a2f;
+    
+    border: 2px solid #CCC;
+    border-radius: 3px;
+    color: #CCC;
+    font-size: 16px;
+    margin: 30px 0;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    /*transition: all 0.25s ease 0s;
+    -webkit-transition: all 0.25s ease 0s;
+    -moz-transition: all 0.25s ease 0s;
+    -ms-transition: all 0.25s ease 0s;
+    -o-transition: all 0.25s ease 0s;
+     :;*/
+    /* -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:; */
+}
+.btnSend:hover,.btnSend:active, .btnSend:focus {
+	border-color: #f49016;
+	color: #f49016;
+}
