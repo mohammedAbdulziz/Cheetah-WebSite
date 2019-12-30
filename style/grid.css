@@ -27,7 +27,7 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 100px;
-  height: 450px;
+  height: 120vh;
 
   position: sticky;
   background-image: linear-gradient(black);
