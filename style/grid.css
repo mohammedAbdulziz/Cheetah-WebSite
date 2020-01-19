@@ -22,11 +22,12 @@ html {
 }
 
 .service {
-  background-image: url("../3251880.jpg");
+  background-image: url("https://i.pinimg.com/564x/19/9c/51/199c514f1220fb611644161ec0d62138.jpg");
   /* background-color: azure; */
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100%;
+  padding-top: 100px;
+  height: 500px;
 
   position: sticky;
   background-image: linear-gradient(black);

@@ -32,7 +32,7 @@
                 <a href="#services" class="menu-link"><span>Se</span>rvices</a>
               </li>
               <li>
-                <a href="#contect-us" class="menu-link"
+                <a href="#contactSection" class="menu-link"
                   ><span>Co</span>tect Us</a
                 >
               </li>
@@ -50,16 +50,17 @@
           </div>
         </div>
         <div class="col-3 col-m-12">
-          <img class="image" src="images/images/odoo-logo.png" alt="cheetah" />
+          <img class="image" src="logo.jpg" alt="cheetah" />
         </div>
       </div>
     </div>
     <!-- /header-->
     <!-- about us -->
-    <section class="aboutUSS row">
+    <section class="aboutUSS row" id="about">
       <div  class="title aboutUS" >
-          <h1>About Us</h1>
-          <div class="container .row">
+          <!-- <h1>About Us</h1> -->
+          <h2><span class="odoo">A</span>BOUT <span class="odoo">U</span>S</h2>
+          <div class="container row">
               <div class="text col-5">
                   <p>
                       Cheetah Company for renting cars and logistical services and transportation was was officially approved by The Ministry of Industry & Trade. According to the rules and systmes set. Throught our working time we were able to create a greate fleet vehicles.
@@ -73,6 +74,10 @@
                   <button>
                       See More
                   </button>
+                  <p>
+                      Cheetah Company for renting cars and logistical services and transportation was was officially approved by The Ministry of Industry & Trade. According to the rules and systmes set. Throught our working time we were able to create a greate fleet vehicles.
+                  </p> 
+                  <a href="#contect-us" class="blue-btn active">See More</a>
               </div>
               <div class="images col-6">
                  <div class="roww">
@@ -96,8 +101,9 @@
       </section>
   </section>
   <!-- services -->
-    <section class=" ">
-      <div class="service row">
+    <section class=" " id="services"> 
+      <div class="service row title ">
+        <h2><span class="odoo">S</span>ERVICES </h2>
         <div class="contaner">
           <div class="col-3 col-m-12 frist border">
             <h1>service</h1>
@@ -140,37 +146,44 @@
     </section>
     <section id="contactSection" class="center">
       <div class="row paddingAll">
-        <h2>Contact Us</h2>
+        <h2><span class="odoo">C</span>ONTACT <span class="odoo">U</span>S</h2>
         <form class="form" action="#" method="POST" role="form">
            
-            <div class="formGroup col-m-12 col-12">
+            <div class="formGroup ">
                 
-                <label class="formLabel" for="name">Your Name:</label>
-                <input type="text" class="formInput" id="name" name="name" placeholder="Enter Your Name" tabindex="1" required>
+                <label class="formLabel col-3 col-m-12" for="name">Your Name:</label>
+                <input type="text" class="formInput col-8 col-m-12" id="name" name="name" placeholder="Enter Your Name" tabindex="1" required><i class="cntfrmicn fa fa-user"></i>
             </div> 
                                        
             <div class="formGroup">
                
-                <label class="formLabel" for="email">Your Email:</label>
-                <input type="email" class="formInput" id="email" name="email" placeholder="Enter Your Email" tabindex="2" required>
+                <label class="formLabel col-3 col-m-12" for="email">Your Email:</label>
+                <input type="email" class="formInput col-8 col-m-12" id="email" name="email" placeholder="Enter Your Email" tabindex="2" required>
             </div> 
                                       
             <div class="formGroup">
                 
-                <label class="formLabel" for="subject">Subject:</label>
-                <input type="text" class="formInput" id="subject" name="subject" placeholder="Enter Subject here" tabindex="3">
+                <label class="formLabel col-3 col-m-12" for="subject">Subject:</label>
+                <input type="text" class="formInput col-8 col-m-12" id="subject" name="subject" placeholder="Enter Subject here" tabindex="3">
             </div> 
                                       
             <div class="formGroup">
-                <label class="formLabel" for="message">Message:</label>
-                <textarea rows="5" cols="50" name="message" class="formInput" id="message" placeholder="Enter Message here..." tabindex="4" required></textarea>                                 
+                <label class="formLabel col-3 col-m-12" for="message">Message:</label>
+                <textarea class="col-8 col-m-12" rows="5"  name="message" class="formInput" id="message" placeholder="Enter Message here..." tabindex="4" required></textarea>                                 
             </div>
             <div class="text-center">
-                <button type="submit" class="btnSend">Send Message</button>
+                <!-- <button type="submit" class="btnSend">Send Message</button> -->
+                <a href="#contect-us" class="blue-btn active">Send Message</a>
             </div>
         </form>
       </div>
 
     </section>
+    <footer>
+      <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+  
+      </div>
+    </footer>
   </body>
+ 
 </html>

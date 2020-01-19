@@ -22,7 +22,6 @@ html {
 }
 
 .row::after {
-  
   content: ".";
   clear: both;
   display: block;
@@ -261,7 +260,7 @@ body {
   width: 80%;
   margin: auto;
 }
-.aboutUS h1 {
+h2 {
   text-align: center;
   font-size: 2.4em;
   font-family: "Times New Roman", Times, serif;
@@ -312,157 +311,155 @@ body {
 }
 /*///////////////////////////////////////////////////////////////////////////////////////*/
 /* section */
-.aboutUSS{
-    background-color:#272a2f;
+.aboutUSS {
+  background-color: #272a2f;
+}
+.aboutUS {
+  padding-top: 50px;
+  width: 80%;
+  margin: auto;
+}
+.aboutUS h1 {
+  text-align: center;
+  font-size: 2.4em;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 20px;
+  color: white;
+}
+.aboutUS h1::first-letter {
+  text-align: center;
 
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 20px;
+  color: #f49016;
 }
-.aboutUS{
-    padding-top:50px;
-    width:80%;
-    margin: auto;
-   
+.aboutUS .text p {
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  text-align: left;
+  margin-bottom: 30px;
 }
-.aboutUS h1{
-    text-align: center;
-    font-size: 2.4em;
-    font-family: 'Times New Roman', Times, serif;
-    margin-bottom: 20px;
-    color:white;
+.aboutUS .text button {
+  font-family: "Times New Roman", Times, serif;
+  text-transform: uppercase;
+  font-size: larger;
+  margin-top: 20px;
+  background: #f49016;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+.aboutUS .text button:hover {
+  background: #98171b;
+}
 
+.images .roww {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
-.aboutUS h1::first-letter{
-    text-align: center;
-   
-    font-family: 'Times New Roman', Times, serif;
-    margin-bottom: 20px;
-    color:#f49016;
-
+.images .roww .img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 30px;
 }
-
-.aboutUS .text p{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: large;
-    color:white;
-    text-align: left;
-    margin-bottom: 30px;
+.images .roww .img:hover {
+  border: 2px solid rgba(255, 255, 255, 0.849);
 }
-.aboutUS .text button{
-    font-family: 'Times New Roman', Times, serif;
-    text-transform: uppercase;
-    font-size: larger;
-    margin-top: 20px;
-    background: #f49016;
-    color:white;
-    padding:10px 20px;
-    border:none;
-    border-radius: 5px;
-}
-.aboutUS .text button:hover{
-    background: #98171b;
-    
-}
-.images{
-  float: right;
-}
-.images .roww{
-    width:100%;
-    display:flex;
-    justify-content: space-around;
-    
-}
-.images .roww .img{
-width: 200px;
-height: 200px;
-margin-bottom: 30px;
-
-}
-.images .roww .img:hover{
-    border:2px solid rgba(255, 255, 255, 0.849);
-    
-    }
-.images .roww .img img{
-    width: 100%;
-    height: 100%;
+.images .roww .img img {
+  width: 100%;
+  height: 100%;
 }
 
 /* AISHA STYLE */
 /* main color orange #f49016 */
 /* main color brown #98171b */
 /* black color #272a2f */
-*{
-    box-sizing: border-box;
-}.paddingAll{
-    margin: 0px 15%;
-    padding: 30px 10px ;
-    width: 70%;
+* {
+  box-sizing: border-box;
 }
-.center{
-    text-align: center;
-  }
-#contactSection{
-background: #272a2f;
-color: #f49016;
+.paddingAll {
+  margin: 0px 15%;
+  padding: 30px 10px;
+  width: 70%;
+}
+.center {
+  text-align: center;
+}
+#contactSection {
+  background: #272a2f;
+  color: #f49016;
 }
 
 .formLabel {
-    width: 20%;
-    /* float: left; */
-	font-size: 16px;
-	color: #ccc;
-	margin: 0;
-    display: inline-block;
-    margin: 20px 10px 20px 0px;
-	opacity: 1;
-	/* -webkit-transition: .333s ease top, .333s ease opacity;
+  /* float: left; */
+  font-size: 16px;
+  color: #ccc;
+  margin: 0;
+  display: inline-block;
+  margin: 20px 10px 20px 0px;
+  opacity: 1;
+  /* -webkit-transition: .333s ease top, .333s ease opacity;
 	transition: .333s ease top, .333s ease opacity; */
 }
-.formInput {
-	color: #eee;
-	background: #272a2f;
-	border-radius: 0;
-	border-color: #ccc;
-	border-width: 0 0 2px 0;
-	border-style: none none solid none;
-	width: 70%;
-	margin: 20px;
-	font-size: 16px;
-	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
-	-ms-border-radius: 0;
-	-o-border-radius: 0;
+.formInput,
+textarea {
+  color: #eee;
+  background: #272a2f;
+  border-radius: 0;
+  border-color: #ccc;
+  border-width: 0 0 2px 0;
+  border-style: none none solid none;
+
+  margin: 20px 10px;
+  font-size: 16px;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
 }
-.formInput:focus {
-    border-color: #f49016;
-    outline: none;
-    transition: all 0.2s ease-in-out ;
-    -webkit-transition: all 0.2s ease-in-out ;
-    -moz-transition: all 0.2s ease-in-out ;
-    -ms-transition: all 0.2s ease-in-out ;
-    -o-transition: all 0.2s ease-in-out ;
+.formInput:focus,
+textarea {
+  border-color: #f49016;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
 }
-.btnSend{
-    background: #272a2f;
-    
-    border: 2px solid #CCC;
-    border-radius: 3px;
-    color: #CCC;
-    font-size: 16px;
-    margin: 30px 0;
-    padding: 10px 50px;
-    text-transform: uppercase;
-    /*transition: all 0.25s ease 0s;
+.btnSend {
+  background: #272a2f;
+
+  border: 2px solid #ccc;
+  border-radius: 3px;
+  color: #ccc;
+  font-size: 16px;
+  margin: 30px 0;
+  padding: 10px 50px;
+  text-transform: uppercase;
+  /*transition: all 0.25s ease 0s;
     -webkit-transition: all 0.25s ease 0s;
     -moz-transition: all 0.25s ease 0s;
     -ms-transition: all 0.25s ease 0s;
     -o-transition: all 0.25s ease 0s;
      :;*/
-    /* -webkit-border-radius:;
+  /* -webkit-border-radius:;
     -moz-border-radius:;
     -ms-border-radius:;
     -o-border-radius:; */
 }
-.btnSend:hover,.btnSend:active, .btnSend:focus {
-	border-color: #f49016;
-	color: #f49016;
+.btnSend:hover,
+.btnSend:active,
+.btnSend:focus {
+  border-color: #f49016;
+  color: #f49016;
+}
+.copyright {
+  background: #1c1d20;
+  padding: 20px;
+  text-align: center;
+  color: #eee;
 }
 /* END AISHA STYLE */
