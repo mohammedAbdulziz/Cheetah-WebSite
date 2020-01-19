@@ -310,7 +310,7 @@ body {
   width: 100%;
   height: 100%;
 }
-
+/*///////////////////////////////////////////////////////////////////////////////////////*/
 /* section */
 .aboutUSS{
     background-color:#272a2f;
@@ -320,7 +320,6 @@ body {
     padding-top:50px;
     width:80%;
     margin: auto;
-    
    
 }
 .aboutUS h1{
@@ -339,8 +338,10 @@ body {
     color:#f49016;
 
 }
+
 .aboutUS .text p{
     font-family: 'Times New Roman', Times, serif;
+    font-size: large;
     color:white;
     text-align: left;
     margin-bottom: 30px;
@@ -360,11 +361,13 @@ body {
     background: #98171b;
     
 }
-
+.images{
+  float: right;
+}
 .images .roww{
     width:100%;
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     
 }
 .images .roww .img{
