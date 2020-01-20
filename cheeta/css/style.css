@@ -1268,7 +1268,7 @@ ol.list-num-count.list-outline-none > li:before {background-color:transparent;	c
 -------------------------------------*/
 .text-white{color:#fff;}
 .text-primary{color:#ae272a}
-.text-secondry{color:#ea7d2d;}
+.text-secondry{color:#83191b;}
 .text-black{color:#000;}
 .text-gray{color:#f5f6f6;}
 .text-gray-dark{color:#d3d3d3;}
@@ -9758,4 +9758,6 @@ STEP NUMBER
 }
 }
 
-
+#services a img{
+	height:300px;
+}
