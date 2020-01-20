@@ -5476,7 +5476,7 @@ line-height:normal;}
 .owl-btn-hover .owl-nav {opacity:0;}
 .owl-btn-hover:hover .owl-nav {opacity:1;}
 
-.owl-carousel .owl-item img{transform-style: inherit;}
+.owl-carousel .owl-item img{transform-style: inherit; height: 100%;}
 
 /*-------------------------------------
     1.11 owl slider button
