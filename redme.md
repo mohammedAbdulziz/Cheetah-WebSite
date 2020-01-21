@@ -1,4 +1,4 @@
-# Cheetah Clinent Website
+# Cheetah Client Website
 * Done by the winner team LOL
 -------------------
 ## Colors used
