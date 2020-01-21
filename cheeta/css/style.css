@@ -5574,7 +5574,8 @@ line-height:normal;}
 .footer-large .footer-bottom{
     padding: 20px 0px;
     color: #787878;
-    font-size: 13px;
+	font-size: 13px;
+	text-align: center;
 }
 
 /*-------------------------------------
@@ -5618,7 +5619,7 @@ line-height:normal;}
     color: #999;
 }
 
-.footer-bottom {padding:100px 0px; 	color:#787878; 	font-size:13px;}
+.footer-bottom {padding:20px; 	color:#787878; 	font-size:13px;}
 .footer-bottom .copyrights-text { color: #fff; font-size: 14px; text-transform: uppercase;}
 .footer-bottom .copyrights-nav { 	list-style:none;	display:inline-block;}
 .footer-bottom .copyrights-nav li { 	display:inline-block;	margin-left:8px;	margin-right:8px;}
@@ -5869,6 +5870,8 @@ button.scroltop span {font-size: 10px;    line-height: 10px;}
 .page-wraper {background:#fff;}
 .page-content {position:relative;}
 .section-full {position:relative; background: #f6f7f8;}
+#contact{background: #232e35; color: #999999; height: auto;}
+
 /*-------------------------------------
 	1. Section Head Part 
 -------------------------------------*/
@@ -9771,3 +9774,9 @@ STEP NUMBER
 
 }
 html, body , *{}
+
+::placeholder {
+	color: #999999;
+	opacity: 1; 
+  }
+
