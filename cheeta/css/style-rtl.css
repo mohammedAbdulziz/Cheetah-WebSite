@@ -4255,7 +4255,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 -------------------------------------*/
 .logo-header{ display:table; float: right;;  width:275px; height:70px; vertical-align:middle;  padding:0;  font-size:36px;   color:#1bbce8; margin-top:0; margin-bottom:0; margin-left:0; margin-right:0; position:relative; z-index:11; }
 .logo-header-inner {  display:table-cell; vertical-align:middle; height:100%;}
-.logo-header-inner img{  max-width:100%; max-height:100%;}
+.logo-header-inner img{  height:50px;}
 
 @media only screen and (max-width:991px) {
 .logo-header{  width:200px;} 
