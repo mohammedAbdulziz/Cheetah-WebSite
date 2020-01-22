@@ -956,7 +956,7 @@ ol.list-num-count.list-outline-none > li:before {background-color:transparent;	c
 .p-t50 {padding-top:50px;}
 .p-t60 {padding-top:60px;}
 .p-t70 {padding-top:70px;}
-.p-t80 {padding-top:80px;}
+.p-t80 {padding-top:100px;}
 .p-t90 {padding-top:90px;}
 .p-t100 {padding-top:100px;}
 .p-t110 {padding-top:110px;}
@@ -7912,7 +7912,7 @@ transition: all 0.2s ease;
   display: inline-block;
   color: #d72323;
   font-size: 20px;
-  background-color:# fff;
+  background-color:#fff;
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -8837,7 +8837,7 @@ STEP NUMBER
 
 /*=====services-half-section====*/
 .services-half-section-top{
-	padding:80px 0px 265px;
+	padding:100px 0px 265px;
 }
 .services-half-section-bottom{
 	margin-top:-265px;
@@ -8884,14 +8884,13 @@ STEP NUMBER
 .half-section-outer{
 	display:table;
 	width:100%;
-	padding-top: 80px;
+	padding-top: 100px;
 }
 .half-section-outer-left{
 	display: table-cell;
 	vertical-align: middle;
 	width: 50%;
 	float: none;
-	border-bottom: 80px solid #f6f7f8;
 }
 .half-section-outer-right{
 	display:table-cell;
@@ -9781,4 +9780,14 @@ STEP NUMBER
     float: right;}
 .sdir{
 	direction: rtl;
+}
+#contact{
+	background-color: #232e35;
+}
+input::placeholder,input,textarea::placeholder,select, option {
+	color: #999999 !important;
+	font:inherit;
+	font-weight: 600;
+	text-transform: uppercase;
+	opacity: 1; 
 }
