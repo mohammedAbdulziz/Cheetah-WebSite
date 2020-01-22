@@ -4697,11 +4697,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	1. mega-menu
 -------------------------------------*/
 .navbar-toggle { 	border:none; 	margin-top:24px;	margin-bottom:24px;	margin-left:15px;	margin-right:-10px;	padding: 12px 10px;}
-.navbar-toggle .icon-bar { 	background:#fff;	height:3px;	border-radius:0;	-webkit-border-radius:0;}
+.navbar-toggle .icon-bar { 	background:#999999;	height:3px;	border-radius:0;	-webkit-border-radius:0;}
 @media only screen and (max-width:480px) {
 .navbar-toggle { 	margin-left:10px;}	
 }
-.is-fixed .navbar-toggle { 	margin-top:14px;	margin-bottom:14px;}
+.is-fixed .navbar-toggle { 	margin-top:14px;	margin-bottom:14px;
+transform:translatex(-150px)}
 .header-nav {	position:relative;	padding:0px; z-index:10;}
 .header-nav .nav {float: left;}
 .header-nav .nav i {font-size:9px; 	margin-left:3px;	margin-top:-3px;	vertical-align:middle;	opacity:0.7;}
