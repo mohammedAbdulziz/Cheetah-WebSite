@@ -8918,7 +8918,7 @@ STEP NUMBER
 	vertical-align: middle;
 	width: 50%;
 	float: none;
-	border-bottom: 80px solid #f6f7f8;
+	/* border-bottom: 80px solid #f6f7f8; */
 }
 .half-section-outer-right{
 	display:table-cell;
