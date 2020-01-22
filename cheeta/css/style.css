@@ -7962,8 +7962,6 @@ transition: all 0.2s ease;
 }
 
 
-
-
 .work-hover-content:hover img,
 .work-hover-content.hover img {
   -webkit-animation: work-hover-content 0.45s linear forwards;
@@ -8350,7 +8348,7 @@ STEP NUMBER
 	color: #3a4452;
 }
 
-.step-blocks{}
+/* .step-blocks{} */
 .step-blocks-one{background-color:#d72323;}
 .step-blocks-two{background-color:#1e1e20;}
 .step-blocks-three{background-color:#d72323;}
@@ -8990,7 +8988,7 @@ STEP NUMBER
 .owl-btn-light .owl-next:hover,
 .owl-btn-light .owl-next:active,
 .owl-btn-light .owl-next:focus {
-	 background-color: #232e35;
+	background-color: #232e35;
     border-color: #232e35;
     color: #fff;
     opacity: 0.9;
@@ -9057,75 +9055,75 @@ STEP NUMBER
 
 /*====Pricing Table====*/
 .pricing-table-1 {
-  font-family:Arial, Helvetica, sans-serif;
-  color: #ffffff;
-  text-align: left;
-  font-size: 16px;
+	font-family:Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	text-align: left;
+	font-size: 16px;
 }
 
 
 .pricing-table-1 .plan {
-  padding-top: 20px;
-  position: relative;
-  background-color: #222f3d;
+	padding-top: 20px;
+	position: relative;
+	background-color: #222f3d;
 }
 
 .pricing-table-1 .plan:hover i,
 .pricing-table-1 .plan.hover i {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
 }
 
 .pricing-table-1 * {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: all 0.25s ease-out;
-  transition: all 0.25s ease-out;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.25s ease-out;
+	transition: all 0.25s ease-out;
 }
 
 .pricing-table-1 .plan-title {
-  position: relative;
-  margin: 0;
-  padding: 0 20px;
+	position: relative;
+	margin: 0;
+	padding: 0 20px;
 }
 
 .pricing-table-1 .plan-title:after {
-  position: absolute;
-  content: '';
-  top: 100%;
-  left: 20px;
-  width: 30px;
-  height: 3px;
-  background-color: #fff;
+	position: absolute;
+	content: '';
+	top: 100%;
+	left: 20px;
+	width: 30px;
+	height: 3px;
+	background-color: #fff;
 }
 
 .pricing-table-1 .plan-cost {
-  padding: 0 20px;
-  margin: 0;
+	padding: 0 20px;
+	margin: 0;
 }
 
 .pricing-table-1 .plan-price {
-  font-weight: 500;
-  font-size: 38px;
-  margin: 10px 0;
-  display: inline-block;
+	font-weight: 500;
+	font-size: 38px;
+	margin: 10px 0;
+	display: inline-block;
 }
 
 .pricing-table-1 .plan-type {
-  opacity: 0.8;
-  font-size: 12px;
-  text-transform: uppercase;
+	opacity: 0.8;
+	font-size: 12px;
+	text-transform: uppercase;
 }
 
 .pricing-table-1 .plan-features {
-  padding: 0 0 20px;
-  margin: 0;
-  list-style: outside none none;
-  font-size: 14px;
+	padding: 0 0 20px;
+	margin: 0;
+	list-style: outside none none;
+	font-size: 14px;
 }
 
 .pricing-table-1 .plan-features li {
-  padding: 8px 20px;
+	padding: 8px 20px;
 }
 
 .pricing-table-1 .plan-features i {
@@ -9773,10 +9771,11 @@ STEP NUMBER
 	height:250px !important;
 
 }
-html, body , *{}
-
-::placeholder {
-	color: #999999;
+input::placeholder,input,textarea::placeholder,select, option {
+	color: #999999 !important;
+	font:inherit;
 	opacity: 1; 
-  }
-
+}
+#cheetahLogo{
+	height:50px;
+}
