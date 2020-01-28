@@ -4701,8 +4701,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 @media only screen and (max-width:480px) {
 .navbar-toggle { 	margin-left:10px;}	
 }
-.is-fixed .navbar-toggle { 	margin-top:14px;	margin-bottom:14px;
-transform:translatex(-150px)}
+header .container{
+	position: relative;
+}
+.is-fixed .navbar-toggle {
+	margin-top:14px;	
+	margin-bottom:14px;
+	position: absolute;
+	left:5%;
+}
 .header-nav {	position:relative;	padding:0px; z-index:10;}
 .header-nav .nav {float: left;}
 .header-nav .nav i {font-size:9px; 	margin-left:3px;	margin-top:-3px;	vertical-align:middle;	opacity:0.7;}
