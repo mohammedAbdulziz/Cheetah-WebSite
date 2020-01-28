@@ -9772,15 +9772,24 @@ STEP NUMBER
 
 #aden{
 	height:250px !important;
-
+	width:400px !important;
+	position: relative;
+	left:50%;
+	transform: translateX(-50%);
 }
 #waddeah{
 	height:250px !important;
-
+	width:400px !important;
+	position: relative;
+	left:50%;
+	transform: translateX(-50%);
 }
 #yemen{
 	height:250px !important;
-
+	width:400px !important;
+	position: relative;
+	left:50%;
+	transform: translateX(-50%);
 }
 
  .col-md-4 {
@@ -9806,5 +9815,5 @@ input::placeholder,input,textarea::placeholder,select, option {
 }
 .icon-md{
 	position:relative;
-	right:80px;
+	right:50%;
 }
