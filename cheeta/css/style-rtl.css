@@ -4714,8 +4714,10 @@ header .container{
 .header-nav .nav {float: left;}
 .header-nav .nav i {font-size:9px; 	margin-left:3px;	margin-top:-3px;	vertical-align:middle;	opacity:0.7;}
 .header-nav .nav > li { font-weight:500; position:relative; text-transform:uppercase; margin:-10px 0; padding:10px 0;}
-.header-nav .nav > li > a { border-radius: 0; -webkit-border-radius:0; -moz-border-radius:0; color: #000; font-size: 14px; padding:35px 12px; cursor:pointer; letter-spacing:2px; margin:-10px 0; font-family: 'Fjalla One', sans-serif;}
-.header-nav .nav > li > a:hover {background-color: transparent;	color: #212427;}
+.header-nav .nav > li > a { border-radius: 0; -webkit-border-radius:0; -moz-border-radius:0; color: #000; font-size: 16px;
+	font-weight: bold;	color:#333 !important;
+	padding:35px 12px; cursor:pointer; letter-spacing:0.5px; margin:-10px 0; font-family: 'Fjalla One', sans-serif;}
+.header-nav .nav > li > a:hover {background-color: transparent;	color: #495e74;}
 
 .header-nav .nav > li > a:active,
 .header-nav .nav > li > a:focus {	background-color: transparent;}
@@ -9798,4 +9800,11 @@ input::placeholder,input,textarea::placeholder,select, option {
 	font-weight: 600;
 	text-transform: uppercase;
 	opacity: 1; 
+}
+.spanStyle{
+	font-size:20px !important;
+}
+.icon-md{
+	position:relative;
+	right:80px;
 }
